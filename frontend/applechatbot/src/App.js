@@ -11,7 +11,7 @@ const App = () => {
   const [inputMessage, setInputMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [conversationId, setConversationId] = useState('');
-  const [apiUrl, setApiUrl] = useState('http://localhost:8000');
+  const [apiUrl, setApiUrl] = useState('https://chat-bot-9e6p.onrender.com/');
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
